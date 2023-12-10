@@ -13,4 +13,6 @@ So, [click here to sponsor](https://github.com/sponsors/JoeStrout) -- contributi
 
 # Changes
 
-- import intrinsic
+## import intrinsic (in c# part)
+
+Vm has a List<string> named PossibleLibFolders where we can specify folder where to look for the imported files. Import expect one filepath parameter which can be relative also, this path will be searched in PossibleLibFolders. 

@@ -515,7 +515,7 @@ namespace Miniscript {
 			}
 
 			static double AbsClamp01(double d) {
-				if (d < 0) d = -d;
+				d = Math.Abs(d);
 				if (d > 1) return 1;
 				return d;
 			}

@@ -1609,7 +1609,7 @@ namespace Miniscript {
 				}
 
 				if (!found || string.IsNullOrEmpty(libname)) {
-                    throw new RuntimeException("Library not found or was empty.");
+                    throw new RuntimeException($"Library '{libname}' not found or was empty.");
                 }
 
 				Parser parser = new Parser();
