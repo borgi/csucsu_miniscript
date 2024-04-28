@@ -6,7 +6,7 @@
     <AssemblyName>Miniscript</AssemblyName>
     <TargetFramework>net7.0</TargetFramework>
     <PackageId>org.miniscript.MiniScript</PackageId>
-    <VersionPrefix>1.6.1</VersionPrefix>
+    <VersionPrefix>1.6.2</VersionPrefix>
     <Authors>Joe Strout</Authors>
     <Title>MiniScript</Title>
     <Description>C# implementation of the MiniScript scripting language</Description>
